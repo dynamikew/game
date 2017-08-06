@@ -96,9 +96,10 @@ $(".b1").on('click', function() {
   var x = Math.floor(Math.random() * randomDares.length);
   $("#quotesBox").text(randomDares[x]);
 });
-// $("#clearButton").on('click', function() {
-//   $("#quotesBox").text("");
-// });
+
+$("#clearButton").on('click', function() {
+  $("#quotesBox").text("");
+});
 
 
 
